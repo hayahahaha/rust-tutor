@@ -1,6 +1,7 @@
 use std::io;
 
 fn main() {
+    println!("Loop start!");
     for number in (1..4).rev() {
         println!("The number {}", number);
     }
